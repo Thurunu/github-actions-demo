@@ -9,6 +9,7 @@ test:
 	PYTHONPATH=src/ pytest tests/
 
 pylint:
+	@echo "Running flake8..."
 	flake8 src/ tests/
 
 tflint:
